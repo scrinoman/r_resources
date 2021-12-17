@@ -1,7 +1,7 @@
 import 'package:build/build.dart';
-import 'package:r_resources/src/class_gen/svg_asset_class_generator.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:path/path.dart';
+import 'package:r_resources/src/class_gen/svg_asset_class_generator.dart';
 
 void main() {
   group('SvgAssetClassGenerator tests', () {

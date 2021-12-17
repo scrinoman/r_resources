@@ -1,7 +1,7 @@
 # r_resources
 [![pub package](https://img.shields.io/pub/v/r_resources.svg)](https://pub.dartlang.org/packages/r_resources)
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://pub.dev/packages/effective_dart)
-![PR checks](https://github.com/SolitaryHat/r_resources/workflows/PR%20checks/badge.svg)
+[![Analyzer + Tests](https://github.com/scrinoman/r_resources/actions/workflows/pr_checks.yml/badge.svg)](https://github.com/scrinoman/r_resources/actions/workflows/pr_checks.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 This package is made for R-file code generation using `build_runner`. 

@@ -1,4 +1,4 @@
-name: PR checks
+name: "Analyzer + Tests"
 
 on:
   pull_request:

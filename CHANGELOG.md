@@ -1,3 +1,8 @@
+## [1.0.0] - 12.17.2021.
+
+* Repository moved to another GitHub account, fixed updated analyzer issues.
+
+
 ## [0.0.6] - 03.16.2021.
 
 * Added Docs, fixed fmt.

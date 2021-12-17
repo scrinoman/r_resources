@@ -88,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
               R.stringsOf(context).label_with_newline,
             ),
             SizedBox(height: 8),
-            Text('Currnt localization locale:'),
+            Text('Current localization locale:'),
             Text(
               R.stringsOf(context).locale.toString(),
             ),

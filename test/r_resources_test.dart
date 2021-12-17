@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:build/build.dart';
 import 'package:build_test/build_test.dart';
+import 'package:flutter_test/flutter_test.dart';
 import 'package:r_resources/r_resources.dart';
 import 'package:r_resources/src/class_gen/image_asset_class_generator.dart';
 import 'package:r_resources/src/class_gen/string_class_generator.dart';
 import 'package:r_resources/src/class_gen/svg_asset_class_generator.dart';
 import 'package:r_resources/src/resources_generator.dart';
-import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   late Builder builder;

@@ -1,3 +1,8 @@
+## [1.0.1] - 02.04.2022.
+
+* Updated dependencies
+
+
 ## [1.0.0] - 12.17.2021.
 
 * Repository moved to another GitHub account, fixed updated analyzer issues.

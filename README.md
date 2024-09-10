@@ -17,7 +17,7 @@ To use the resources code generation add dev dependency in your `pubspec.yaml`:
 ```yaml
 dev_dependencies:
   build_runner: <build_runner version here>
-  r_resources: ^1.0.1
+  r_resources: ^1.0.2
 ```
 
 To generate R-file, run build_runner: `flutter pub run build_runner build`. `r.dart` file will be created in `lib` folder

@@ -1,3 +1,7 @@
+## [1.0.2] - 10.09.2024.
+
+* Fixed dangling_library_doc_comments warning in generated file
+
 ## [1.0.1] - 02.04.2022.
 
 * Updated dependencies

@@ -37,7 +37,8 @@ const ignoreCommentForLinter = '// ignore_for_file: '
     'non_constant_identifier_names,'
     'prefer_double_quotes,'
     'unnecessary_raw_strings,'
-    'use_raw_strings';
+    'use_raw_strings,'
+    'dangling_library_doc_comments';
 
 class _GeneratorOptions {
   const _GeneratorOptions._({
@@ -211,7 +212,9 @@ class ResourcesBuilder implements Builder {
       ..writeln(svgResourcesClass);
 
     if (options.isStringsGenEnabled) {
-      generatedFileContent..writeln()..writeln(stringResourcesClasses);
+      generatedFileContent
+        ..writeln()
+        ..writeln(stringResourcesClasses);
     }
 
     return generatedFileContent.toString();
